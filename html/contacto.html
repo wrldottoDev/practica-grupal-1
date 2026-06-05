@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <main>
+        <section aria-labelledby="titulo-contacto">
+            <h2 id="titulo-contacto">Contáctanos</h2>
+            <p class="subtitulo-contacto">Ponte en contacto con nosotros.</p>
+
+            <div class="card-formulario">
+                <form action="mailto:contacto@contacto.com" method="post" enctype="text/plain" class="form">
+                    <fieldset>
+                        <legend>Formulario de contacto</legend>
+
+                        <p>
+                            <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Nombre" required>
+                        </p>
+
+                        <p>
+                            <input type="email" id="email" name="email" autocomplete="email" placeholder="Correo electrónico" required>
+                        </p>
+
+                        <p>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Número de teléfono" autocomplete="tel">
+                        </p>
+
+                        <p>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí" required></textarea>
+                        </p>
+
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section aria-labelledby="titulo-visita">
+            <h2 id="titulo-visita">Visítanos</h2>
+            <p>
+                Consulta nuestras <a href="sedes.html">sedes disponibles</a>.
+            </p>
+
+            <address>
+                Universidad Cenfotec<br>
+                San José, Costa Rica<br>
+                <a href="mailto:contacto@ejemplo.com">ucenfo@ejemplo.com</a>
+            </address>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0308362317637!2d-84.06672232539186!3d9.931389874212426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3f13462cc7b%3A0x97219232a6ee2da8!2sCenfotec!5e0!3m2!1sen!2scr!4v1780680362858!5m2!1sen!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Universidad Cenfotec</p>
+    </footer>
+</body>
+</html>

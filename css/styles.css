@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: min(90%, 900px);
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 48px;
+}
+
+h2,
+.subtitulo-contacto {
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 8px;
+}
+
+p {
+    margin: 0 0 16px;
+}
+
+.card-formulario {
+    max-width: 520px;
+    margin: 32px auto 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 24px;
+}
+
+legend {
+    padding: 0 8px;
+}
+
+.form p {
+    margin-bottom: 16px;
+}
+
+.form input,
+.form textarea,
+.form button {
+    width: 100%;
+    font: inherit;
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.form button {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+#titulo-visita,
+#titulo-visita + p,
+address,
+figure,
+footer {
+    text-align: center;
+}
+
+address {
+    margin-bottom: 24px;
+    font-style: normal;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 8px;
+}
+
+footer {
+    padding: 24px 0;
+}
