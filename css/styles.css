@@ -102,3 +102,8 @@ figcaption {
 footer {
     padding: 24px 0;
 }
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
